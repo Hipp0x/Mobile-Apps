@@ -75,9 +75,9 @@ class Current {
   final double precipIn;
   final int humidity;
   final int cloud;
-  @JsonKey(name: 'feels_like_c')
+  @JsonKey(name: 'feelslike_c')
   final double feelslikeC;
-  @JsonKey(name: 'feels_like_f')
+  @JsonKey(name: 'feelslike_f')
   final double feelslikeF;
   @JsonKey(name: 'vis_km')
   final double visKm;
